@@ -1,8 +1,7 @@
 # Team 12 · Club Recruitment
 
 | Team | Partner 1 |
-|---|---|---|---|---|
-| [] | [Thammiksha] | None | Club Recruitment | 
+| [Thammiksha] | None | Club Recruitment | 
 
 ## 1. Who is doing what
 
