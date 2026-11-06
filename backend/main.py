@@ -1,13 +1,9 @@
-from http.client import HTTPException
-
+ import HTTPException
 from fastapi import FastAPI
 from datetime import datetime
 import functions
 
 app = FastAPI()
-
-
-
 
 @app.get("/clubs")
 def clubs(category=None):
