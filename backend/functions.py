@@ -67,7 +67,6 @@ def get_all_clubs(category=None):
     return response
 
 
-# E2
 def get_club(id):
     session = Session(engine)
 
@@ -146,7 +145,7 @@ def set_recruiting(id, recruiting):
     session.close()
     return response
 
-# E5
+
 def apply_to_club(club_id, roll_no, why_join):
     session = Session(engine)
 
@@ -173,7 +172,7 @@ def apply_to_club(club_id, roll_no, why_join):
     return response
 
 
-# E6
+
 def update_application_status(id, status):
     session = Session(engine)
 
