@@ -1,6 +1,4 @@
-from http.client import HTTPException
 
-from flask import app
 from sqlalchemy import Integer, String, Column, create_engine, ForeignKey
 from sqlalchemy.orm import declarative_base, Session
 
