@@ -4,6 +4,11 @@ from fastapi import FastAPI
 from datetime import datetime
 import functions
 
+app = FastAPI()
+
+
+
+
 @app.get("/clubs")
 def clubs(category=None):
     return functions.get_all_clubs(category=category)
